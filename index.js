@@ -16,11 +16,8 @@ const metascraper = require('metascraper').load([
 	require('metascraper-url')(),
 	require('metascraper-logo-favicon')(),
 	require('metascraper-amazon')(),
-	require('metascraper-youtube')(),
-	require('metascraper-soundcloud')(),
-	require('metascraper-video-provider')()
+	require('metascraper-soundcloud')()
 ])
-
 
 const TWENTY_FOUR_HOURS = 86400000
 
